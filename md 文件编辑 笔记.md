@@ -1,4 +1,10 @@
-题  
+大标题  
+===================================  
+  大标题一般显示工程名,类似html的\<h1\><br />  
+  你只要在标题下面跟上=====即可  
+  
+    
+中标题  
 -----------------------------------  
   中标题一般显示重点项,类似html的\<h2\><br />  
   你只要在标题下面输入------即可  
@@ -19,17 +25,17 @@
     这里你可以输入一段代码  
   
 ### 比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧  
-    public class HelloWorld {  
+    public class HelloWorld {
+
+      /**
+      * @param args
+      */
+     public static void main(String[] args) {
+     System.out.println("HelloWorld!");
   
-      /**  
-      * @param args  
-      */  
-    public static void main(String[] args) {  
-    System.out.println("HelloWorld!");  
+     }
   
-    }  
-  
-    }  
+    }
 ### 链接  
 1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />  
 2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />  
@@ -39,7 +45,7 @@
   
 ###想点击某个图片进入一个网页,比如我想点击github的icorn然后再进入www.github.com  
 [![image]](http://www.github.com/)  
-[image]: http://github.com/github.png "github"  
+[image]: https://avatars0.githubusercontent.com/u/6541847?v=3 "github"
   
 ### 文字被些字符包围  
 > 文字被些字符包围  
