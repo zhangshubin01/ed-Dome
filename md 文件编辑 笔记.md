@@ -26,15 +26,12 @@
   
 ### 比如我们可以在多行文本框里输入一段代码,来一个Java版本的HelloWorld吧  
     public class HelloWorld {
-
       /**
       * @param args
       */
      public static void main(String[] args) {
-     System.out.println("HelloWorld!");
-  
+      System.out.println("HelloWorld!");
      }
-  
     }
 ### 链接  
 1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />  
@@ -67,3 +64,20 @@
 ### 特殊字符处理  
 有一些特殊字符如<,#等,只要在特殊字符前面加上转义字符\即可<br />  
 你想换行的话其实可以直接用html标签\<br /\>  
+
+### 标题使用不同数量的"#"来标识是什么层级，可以对应于HTML里面的H1-H6，下面是示例代码和效果：
+# This is H1
+## This is H2
+### This is H3
+#### This is H4
+##### This is H5
+###### This is H6
+
+### 字体强调
+
+*强调* 或者 _强调_ (示例：斜体)  
+
+**加重强调** 或者 __加重强调__ (示例：粗体)
+
+***特别强调*** 或者 ___特别强调___ (示例：粗斜体)
+
